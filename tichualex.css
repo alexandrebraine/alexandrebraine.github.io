@@ -1,0 +1,156 @@
+body {
+    background: #d2a679;
+}
+
+
+/* Paragraphes en bleu par défaut */
+p
+{
+    color: blue;
+}
+
+
+/** Table layout **/
+
+#playertables {
+    position: relative;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 95%;
+    min-height: 500px;
+}
+
+.playertablename {
+    font-weight: bold;
+}
+
+
+/* écran grand*/
+@media (min-width: 1300px)
+{
+   
+
+    .playertable {
+        position: absolute;
+
+    }
+
+    .playertable_TOP {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        border: 3px solid #000;
+   }
+
+
+    .playertable_LEFT {
+        left: 0px;
+        top: 50%;
+        margin-top: -55px; /* half of 130 */
+        border: 3px solid #000;
+    }
+    .playertable_RIGHT {
+        right: 0px;
+        top: 50%;
+        margin-top: -55px; /* half of 130 */
+        width: 45%;
+        border: 3px solid #000;
+    }
+
+    .playertable_BOTTOM {
+        left: 50%;
+        bottom: 0px;
+        margin-left: -90px; /* half of 180 */
+        width: 45%;
+        border: 3px solid #000;
+    }
+
+
+
+}
+
+
+
+
+
+.playertable_TOP {
+    background: #cce6ff;
+    width: 45%;
+    min-width: 600px;
+}
+
+
+.playertable_LEFT {
+    background: #39ac73;
+    width: 45%;
+    min-width: 600px; 
+}
+.playertable_RIGHT {
+    background: #c6ecd9;
+    width: 45%;
+    min-width: 600px;     
+}
+
+
+.playertable_BOTTOM {
+    background: #99c2ff;
+    width: 45%;
+    min-width: 600px; 
+}
+
+
+
+/* BGA */
+
+#myhandwrap {
+
+    margin-left: auto;
+    margin-right: auto;    
+    width: 95%;    
+}
+
+
+#myhand {
+    padding-left:100px;
+}
+
+
+.stockitem { 
+    float: left;
+    border-radius:6px;
+    -moz-box-shadow:5px 5px 5px 5px #656565;
+    -webkit-box-shadow:5px 5px 5px 5px #656565;
+    -o-box-shadow:5px 5px 5px 5px #656565;
+    box-shadow:5px 5px 5px 5px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565,Direction=134,Strength=5)
+}
+
+    
+#bandeau
+{
+	margin-left: 149px;
+	width: 797px;
+	background-color: #6bbdb7;
+	border-left: 3px solid #409e9d;
+}
+#gauche
+{
+	background-color:#F00;
+	width: 200px;
+	float: left;
+ 
+}
+#milieu
+{
+	background-color:#FF0;
+	width: 200px;
+	float: left;
+}
+#droite
+{
+	background-color:#0F0;
+	width: 200px;
+	float: left;
+}

@@ -1,0 +1,33 @@
+.ha_board{clear:both}
+
+
+
+#myhandwrap{padding-left:10px}
+
+
+#card-last-played-area{display:inline-block;padding-left:20px;width:55%}.whiteblock{border-radius:6px}.choicePanel{float:right;width:40%;margin-right:10px}.combo{margin:10px}
+
+
+
+.stockitem{border-radius:6px;-moz-box-shadow:5px 5px 5px 5px #656565;-webkit-box-shadow:5px 5px 5px 5px #656565;-o-box-shadow:5px 5px 5px 5px #656565;box-shadow:5px 5px 5px 5px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565,Direction=134,Strength=5)}
+    
+    
+    
+    .stockitem_selected{border:4px solid #ff0!important}
+    
+    
+    
+    
+    .reordercards{font-size:70%;position:relative;top:-1px;margin-left:30px}
+    
+    
+    .mahjong{width:22px;height:33px;background-image:url(img/tichu-icons-panel.png)}
+    
+    
+    
+    .mahjong_mini{display:inline-block;width:22px;height:33px}
+    
+    .count{margin-right:5px}
+    
+    .icon{display:inline-block;background-image:url(img/tichu-icons.png)}.icon.grandtichublack{background-position:0 0;width:32px;height:32px}.icon.tichublack{background-position:-32px 0;width:32px;height:32px}.icon.grandtichucolor{background-position:0 -32px;width:32px;height:32px;display:none}.icon.tichucolor{background-position:-32px -32px;width:32px;height:32px;display:none}.icon.firstoutcolor{background-position:-64px -32px;width:32px;height:32px;display:none}.icon.star{background-position:-112px -16px}.icon.hand,.icon.star{width:16px;height:16px}.icon.hand{background-position:-112px 0}.icon.cardback{background-position:-91px 0;width:21px;height:32px;display:none}.playertablename{font-weight:700}.playertable{text-align:center;width:400px;height:170px}.playertable_1{top:0;left:30px;width:120px}.playertable_2{top:0;left:180px;width:120px}.playertable_3{top:0;left:330px;width:120px}.passtext{font-family:Brush Script MT,cursive;font-size:75px;color:#00008b}.givePassCard,.receivePassCard{top:30px;left:20px}.cardontable{position:absolute;width:100px;height:150px;background-image:url(img/tichu-cards.png);border-radius:6px;-moz-box-shadow:5px 5px 5px 5px #656565;-webkit-box-shadow:5px 5px 5px 5px #656565;-o-box-shadow:5px 5px 5px 5px #656565;box-shadow:5px 5px 5px 5px #656565;filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565,Direction=134,Strength=5)}.spectatorMode #grandtichupanel,.spectatorMode #mahjongpanel,.spectatorMode #myhandwrap,.spectatorMode #playertables,.spectatorMode #tichupanel{display:none}
