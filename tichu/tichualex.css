@@ -19,6 +19,9 @@ body {
                       "bottom";
   grid-template-rows: 1fr;
   grid-template-columns: auto;
+
+
+  row-gap: 10px;
 }
 
 
