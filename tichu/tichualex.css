@@ -1,13 +1,14 @@
 
 body {
     background: #d2a679;
+    background-image: url('backgroud.jpg');
 }
 
 
 /* Alex */
 
 
-#page {
+#board4players {
   display: grid;
   width: 100%;
   height: 250px;
@@ -24,12 +25,12 @@ body {
 @media (min-width: 1300px)
 {
 
-  #page {
+  #board4players {
     display: grid;
     width: 100%;
-    height: 250px;
+    height: 550px;
     grid-template-areas: ". top top top ."
-                        "left left nav  right right"
+                        "left left . right right"
                         ".  bottom bottom bottom .";
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 50px 1fr 1fr;
@@ -41,44 +42,79 @@ body {
 }
 
 
-#page > header {
-  grid-area: top;
-  background-color: #8ca0ff;
-}
-
-#page > nav {
-  grid-area: nav;
-  background-color: #ffa08c;
-}
-
-#page .left {
-  grid-area: left;
-  background-color: #ffff64;
-}
-
-#page .right {
-  grid-area: right;
-  background-color: #ffff64;
-}
-
-
-
-#page > footer {
-  grid-area: bottom;
-  background-color: #8cffa0;
-}
-
-
-.board4players {
+#board4players .playerboard {
   width: 100%;
-  min-height: 800px;
-  position: relative;
-  display: grid;
-  grid-template-columns: 40px 50px auto 50px 40px;
-
-
-  border: 1px solid #000;
+  height: 100%; 
+  border-radius: 10px;
+  background-color: #ffffff80;
+  border: 1px solid #252525;
+  box-shadow: 1px 1px 5px #252525;
+  display: flex;
 }
+
+#board4players .player-top {
+  grid-area: top;
+  min-width: 650px;
+  max-width: 800px;
+  height: 160px;
+}
+
+
+#board4players .player-left {
+  grid-area: left;
+  min-width: 650px;
+  max-width: 800px;
+  height: 160px;
+}
+
+#board4players .player-right {
+  grid-area: right;
+  min-width: 650px;
+  max-width: 800px;
+  height: 160px;
+}
+
+#board4players .player-bottom {
+  grid-area: bottom;
+  min-width: 650px;
+  max-width: 800px;
+  height: 160px;
+}
+
+
+
+
+
+#board4players .playerboard .card-played-deck {
+  background-color: lawngreen;
+  width: 100%;
+
+}
+
+#board4players .playerboard .card-played-empty {
+  width: 60px;
+}
+
+#board4players .playerboard .card-played {
+
+  margin-left: -60px;
+  border: 1px solid #252525;  
+  box-shadow: 1px 1px 5px black;
+  border-radius: 8px;
+  width: 100px;
+  height: 150px;
+}
+
+
+
+/* CARTES */
+
+
+
+
+
+
+
 
 
 
