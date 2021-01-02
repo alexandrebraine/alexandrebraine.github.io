@@ -1,37 +1,18 @@
-const buttondesign = document.getElementsByClassName('buttondesign')
+const buttondesign = document.getElementById('buttondesign')
+let elem= document.getElementById("board4players");
 
 buttondesign.addEventListener('click', () => {
+    if (elem.style.gridTemplateAreas === '"top" "right" "bottom" "left"') {
 
-    document.getElementById("designid1").classList.remove("border");
-    document.getElementById("designid1").classList.toggle("design2");
+        elem.style.gridTemplateAreas = '". top top top ." "left left . right right" ".  bottom bottom bottom ."';
 
-    if (buttondesign.textContent === 'design1') {
-        buttondesign.textContent = 'design2'
-
-    } else {
-        buttondesign.textContent = 'design1'
-
-    }
-
-})
-
-
-
-
-const buttonchangedesign = document.getElementById('buttonchangedesign')
-
-buttonchangedesign.addEventListener('click', () => {
-
-    document.getElementById("board4players").classList.remove("board4players");
-
-    
-    
-
-    if (buttonchangedesign.textContent === 'round') {
-        buttonchangedesign.textContent = 'colomn'
+        ". top top top ."
+                        "left left . right right"
+                        ".  bottom bottom bottom ."
 
     } else {
-        buttonchangedesign.textContent = 'round'
+        
+        elem.style.gridTemplateAreas = '"top" "right" "bottom" "left"';
 
     }
 
