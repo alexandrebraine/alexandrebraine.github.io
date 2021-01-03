@@ -4,7 +4,6 @@ body {
     background-image: url('backgroud.jpg');
 }
 
-
 .interfacepanel {
   background-color: #ffffff7c; /* Green */
   border: none;
@@ -15,11 +14,6 @@ body {
   font-size: 16px;
   width: 450px;
 }
-
-
-
-/* Alex */
-
 
 #board4players {
   display: grid;
@@ -33,7 +27,6 @@ body {
   grid-template-columns: auto;
   row-gap: 10px;
 }
-
 
 @media (min-width: 1300px)
 {
@@ -100,4 +93,3 @@ body {
   width: 100px;
   height: 150px;
 }
-
