@@ -56,6 +56,16 @@ body {
   box-shadow: 1px 1px 5px #252525;
 }
 
+#board4players .playerboardmyturn {
+  width: 660px;
+  height: 200px; 
+  border-radius: 10px;
+  background-color: #94323280;
+  border: 2px solid #ff0000;
+  box-shadow: 1px 1px 5px #252525;
+}
+
+
 
 #board4players .playerboard .cardsingame {
   display: flex;
@@ -92,4 +102,14 @@ body {
   border-radius: 8px;
   width: 100px;
   height: 150px;
+}
+
+
+/*css original*/
+
+.passtext {
+  font-family:Brush Script MT,cursive;
+  font-size:75px;
+  color:#00008b;
+  line-height: 150px;
 }
