@@ -5,6 +5,19 @@ body {
 }
 
 
+.interfacepanel {
+  background-color: #ffffff7c; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 450px;
+}
+
+
+
 /* Alex */
 
 
